@@ -1,13 +1,11 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
 
-import mongodb from "./assets/images/Skills/mongodb.png"
+import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
-import javascript from "./assets/images/Skills/javascript.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -19,14 +17,12 @@ import project3 from "./assets/images/projects/img3.png";
 import person_project from "./assets/images/projects/person.png";
 
 
-
-import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram, BsLinkedin, BsTwitter, BsTwitterX, BsX } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -57,17 +53,18 @@ export const content = {
   ],
   hero: {
     title: "Web Developer",
-    firstName: "Shailesh",
-    LastName: "Gharti",
+    firstName: "JOHN",
+    LastName: "ALEX",
     btnText: "Hire Me",
-    btnCV: "Download CV",
-
-    
-    image: Hero_person,
+    image: Hireme_person2,
     hero_content: [
       {
-        count: "1+",
-        text: "Years of Experience Web development",
+        count: "8+",
+        text: "Years of Experinse in Web development",
+      },
+      {
+        count: "20+",
+        text: "Projects Worked in my career",
       },
     ],
   },
@@ -76,24 +73,34 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "mongoDB",
-        para: " Database",
-        logo: mongodb,
+        name: "Figma",
+        para: "Lorem ipsum text  dummy",
+        logo: figma,
       },
       {
         name: "Node js",
-        para: "",
+        para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
       {
+        name: "Adobe Photoshop",
+        para: "Lorem ipsum text  dummy",
+        logo: ps,
+      },
+      {
         name: "React js",
-        para: "",
+        para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
-        name: "JavaScript",
-        para: "",
-        logo: javascript,
+        name: "Sketch",
+        para: "Lorem ipsum text  dummy",
+        logo: sketch,
+      },
+      {
+        name: "Python",
+        para: "Lorem ipsum text  dummy",
+        logo: python,
       },
     ],
     icon: MdArrowForward,
@@ -104,13 +111,18 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "I provide web services as a full-stack developer with a Bachelor’s degree and freelancing experience. Let’s build responsive, fast sites to scale your local business. Hire me to bring your vision to life!",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
       },
       {
-        title: "Positive Mindset and Learning Attitude",
-        para: "I love to learn new things and don't let myself holdback from crippling mindset",
-        logo: services_logo1,
+        title: "ui / ux DESIGNING",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo2,
+      },
+      {
+        title: "PhotoShop Editing",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo3,
       },
     ],
   },
@@ -137,35 +149,29 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
+    image1: Hireme_person2,
     image2: Hireme_person2,
-    para: "Over the past few years, I’ve honed my skills through freelancing, working on diverse projects that taught me adaptability and problem-solving. Now, I’m excited to bring my enthusiasm and experience to a full-time role. Let’s create something great together!"
-,
+    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
   Contact: {
-    title: "Connect Me",
+    title: "Contect Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "chhettrisailesh1@gmail.com",
+        text: "codeaprogram@gmail.com",
         icon: GrMail,
-        link: "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
+        link: "mailto:codeaprogram@gmail.com",
       },
       {
-        text: "+61 0410 474 567",
+        text: "+91 1234 56778",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "Twitter/X",
-        icon: BsTwitterX,
-        link: "https://x.com/home?lang=en",
-      },
-      {
-        text: "LinkedIn",
-        icon: BsLinkedin,
-        link: "https://www.linkedin.com/in/sailesh-chhettri/",
+        text: "codeaprogram",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/codeaprogram/",
       },
     ],
   },
