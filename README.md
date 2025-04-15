@@ -56,9 +56,9 @@ assets/: Holds images, resume files, and other static assets used in the portfol
 Contact
 You can get in touch with me through the following channels:
 
-LinkedIn: @Men-ace
+LinkedIn: linkedin.com/in/sailesh-chhettri-318426268/
 
 GitHub: @Men-ace
 
-Email: myemail@dentedcode.com
+Email: chhettrisailesh1@dentedcode.com
 
