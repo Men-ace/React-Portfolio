@@ -60,5 +60,5 @@ LinkedIn: linkedin.com/in/sailesh-chhettri-318426268/
 
 GitHub: @Men-ace
 
-Email: chhettrisailesh1@dentedcode.com
+Email: chhettrisailesh1@gmail.com
 
