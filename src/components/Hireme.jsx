@@ -4,7 +4,7 @@ const Hireme = () => {
   const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary">
+    <section className="bg-bg_light_primary p-5">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
@@ -14,18 +14,6 @@ const Hireme = () => {
         </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
-          <img
-            src={Hireme.image1}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-sm md:block hidden"
-          />
-          <img
-            src={Hireme.image2}
-            data-aos="fade-up"
-            alt="..."
-            className="max-w-sm md:hidden"
-          />
           <div
             data-aos="fade-left"
             className="border-2 border-dark_primary max-w-sm

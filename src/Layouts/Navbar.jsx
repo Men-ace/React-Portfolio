@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 

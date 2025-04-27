@@ -1,16 +1,15 @@
 // import components
 import Hero from "./components/Hero";
+import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
 import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Hireme from "./components/Hireme";
-import Contact from "./components/Contact"
-import Navbar from "./Layouts/Navbar";
+import Contact from "./components/Contact";
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 
 const App = () => {
   useEffect(() => {
@@ -30,8 +29,8 @@ const App = () => {
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">Shailesh Gharti</h6>
-        <p>© All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">Shailesh</h6>
+        <p>© All CopyRights Reserved 2024</p>
       </footer>
     </div>
   );

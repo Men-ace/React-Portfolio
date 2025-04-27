@@ -70,3 +70,8 @@
 .btn-cv{
   margin-left: 15px;
 }
+
+.logo{
+  display: flex;
+  gap: 10px;
+}
