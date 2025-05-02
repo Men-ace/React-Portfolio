@@ -1,5 +1,4 @@
 // import content
-import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
@@ -24,7 +23,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-end">
             <button className="btn">{hero.btnText}</button>
-           <a target="blank" href="\src\assets\images\Hero\Resume.pdf"><button className="btn-cv">{hero.btnCV}</button></a> 
+           <a target="blank" href="/src/assets/images/Hero/Resume.pdf"><button className="btn-cv">{hero.btnCV}</button></a> 
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
