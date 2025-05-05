@@ -113,16 +113,16 @@ export const content = {
         gitlink:"https://github.com/Men-ace/Finance-Tracker-client"
       },
       {
-        title: "Social Media web",
+        title: "Library Management System",
         image: project2,
-        livelink: "https://finance-tracker-client-5lf5.vercel.app/",
-        gitlink:"https://github.com/Men-ace/Finance-Tracker-client"
+        livelink: "https://auth-system-client-t5ew.vercel.app/",
+        gitlink:"https://github.com/Men-ace/auth-system-client"
       },
       {
         title: "Creative Website",
         image: project3,
         livelink: "https://finance-tracker-client-5lf5.vercel.app/",
-        gitlink:"https://github.com/Men-ace/Finance-Tracker-client"
+        gitlink:"https://github.com/Men-ace/auth-system-client"
       },
     ],
   },
