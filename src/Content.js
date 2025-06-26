@@ -96,8 +96,8 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "Positive Mindset and Learning Attitude",
-        para: "I love to learn new things and don't let myself holdback from crippling mindset",
+        title: "Full stack Development",
+        para: "From designing responsive user interfaces to building powerful server-side applications, I provide end-to-end full-stack development support.",
         logo: services_logo1,
       },
     ],
