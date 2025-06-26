@@ -3,6 +3,7 @@ import Hero_person from "./assets/images/Hero/person.png";
 import mongodb from "./assets/images/Skills/mongodb.png"
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
+import typescript from "./assets/images/Skills/typescript.webp"
 import javascript from "./assets/images/Skills/javascript.png";
 import services_logo1 from "./assets/images/Services/logo1.png";
 import project1 from "./assets/images/Projects/img1.png";
@@ -82,6 +83,11 @@ export const content = {
         name: "JavaScript",
         para: "",
         logo: javascript,
+      },
+      {
+        name: "TypeScript",
+        para: "",
+        logo: typescript,
       },
     ],
     icon: MdArrowForward,
